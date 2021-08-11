@@ -1,0 +1,46 @@
+{
+  "name": "MyDoctor",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "emulator": "emulator -avd Pixel_2_XL_API_27"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.13.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.2.8",
+    "@react-navigation/native": "^5.1.6",
+    "@react-navigation/stack": "^5.2.13",
+    "firebase": "^8.2.1",
+    "react": "16.11.0",
+    "react-native": "^0.64.2",
+    "react-native-flash-message": "^0.1.15",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-image-picker": "^3.1.2",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.7.0",
+    "react-native-svg": "^9.12.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-native-svg-transformer": "^0.13.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
